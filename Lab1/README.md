@@ -36,5 +36,4 @@ Each switch (SW0 to SW7) triggers a different operation:
 
 ---
 
-**Author:** Yuval Hoffman  
 **Course:** Software Embedded Systems  
