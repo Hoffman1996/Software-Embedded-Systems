@@ -8,12 +8,12 @@ This project was developed as the final assignment in the **Software Embedded Sy
 
 ## Project Description
 
-The system simulates an interactive and humorous scenario where **two characters appear on an LCD screen and walk towards each other**. Each character is **controlled by switches** (verified from `bomboklat_header.h`) and can walk independently on either of the two available LCD lines. Their movement is displayed in real time on the LCD.
+The system simulates an interactive and humorous scenario where **two characters appear on an LCD screen and walk towards each other**. Each character is **controlled by switches** and can walk independently on either of the two available LCD lines. Their movement is displayed in real time on the LCD.
 
 ### Special Interaction:
 When **both characters reach the center of the LCD on the top row at the same time**, the following events occur simultaneously:
 - Both characters **disappear from the screen**
-- An **explicit (18+) image** is drawn on the LCD using custom characters
+- An **explicit (18+) image** is drawn on the LCD using custom characters. The image then starts to move left to right on the screen (as if it were dancing).
 - The **speaker emits a high-pitched sound**
 - The **RGB LED begins cycling** through red → green → blue continuously
 
